@@ -1,0 +1,216 @@
+<resources>
+<string name="app_name">Pastisseria Ronda</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="is">Iniciar Sessió</string>
+    <string name="reg">Registrar-se</string>
+    <string name="noc">Encara no té un compte?</string>
+    <string name="forgotpass">Ha oblidat la seva contrasenya?</string>
+    <string name="regpro">Entrada de productes</string>
+    <string name="regtemp">Control de temperatures</string>
+    <string name="reglimp">Neteja</string>
+    <string name="initses">Iniciant Sessió...</string>
+    <string name="errorses">No s\'ha pogut iniciar sessió! Intenti-ho de nou més tard...</string>
+    <string name="errorsu">No s\'han pogut registrar les dades! Intenti-ho de nou més tard...</string>
+    <string name="sescor">S\'ha iniciat sessió correctament!</string>
+    <string name="emailerror">Introdueixi un email vàlid</string>
+    <string name="recemail">S\'ha enviat un correu de recuperació!</string>
+    <string name="passerr">Introdueixi una contrasenya valguda</string>
+    <string name="cerrses">S\'ha tancat la sessió correctament!</string>
+    <string name="cerrsesb">Tancar Sessió</string>
+    <string name="creusu">Creant Usuari...</string>
+    <string name="namva">Introdueixi un nom vàlid</string>
+    <string name="contemp">Introdueixi una contrasenya</string>
+    <string name="samecont">Introdueixi la mateixa contrasenya</string>
+    <string name="longcont">Introdueixi una contrasenya amb més de 6 caràcters.</string>
+    <string name="telfval">Introdueixi un telèfon vàlid.</string>
+    <string name="noreg">No s\'ha pogut completar el registre!</string>
+    <string name="regcor">El registre s\'ha completat correctament!</string>
+    <string name="corelec">Correu Electrònic</string>
+    <string name="cont">Contrasenya</string>
+    <string name="repcon">Repetir Contrasenya</string>
+    <string name="telf">Telefono</string>
+    <string name="nom">Nom</string>
+    <string name="veg">Vegà</string>
+    <string name="nolac">Sense lactosa</string>
+    <string name="noglu">Sense gluten</string>
+    <string name="nosu">Sense sucre</string>
+    <string name="mustinit">Ha d\'iniciar sessió per a usar aquesta funcionalitat</string>
+    <string name="inicsesion">Iniciar Sessió</string>
+    <string name="guardarcam">Guardar Canvis</string>
+    <string name="resc">Restablir Contrasenya</string>
+    <string name="infoper">Informació Personal</string>
+    <string name="email">Email</string>
+    <string name="placeholdermail">abc@def.com</string>
+    <string name="obinfo">Obtenint informació...</string>
+    <string name="obpro">Obtenint productes...</string>
+    <string name="gucam">Guardant canvis...</string>
+    <string name="guacor">S\'han guardat els canvis correctament!</string>
+    <string name="guacorr">S\'ha registrat correctament!</string>
+    <string name="fecha">Data</string>
+    <string name="id">Identificador</string>
+    <string name="reglimpi">Registre de Neteja</string>
+    <string name="regtempe">Registre de temperatures</string>
+    <string name="save">Guardar</string>
+    <string name="gure">Guardant registre...</string>
+    <string name="obre">Obtenint registres...</string>
+    <string name="regenpro">Registre d\'entrada \
+de productes</string>
+    <string name="selcad">Data de caducitat</string>
+    <string name="introfe">Ha d\'introduir una data!</string>
+    <string name="introid">Ha d\'introduir un identificador!</string>
+    <string name="noda">Fins i tot no hi ha dades registrades.</string>
+    <string name="nopro">No hi ha cap producte disponible\
+en aquest moment.</string>
+    <string name="noped">No hi ha cap comanda disponible\
+en aquest moment.</string>
+    <string name="elimreg">Està segur que vol eliminar aquest registre? Aquesta acció no podrà ser revertida.</string>
+    <string name="si">Sí</string>
+    <string name="can">Cancel·lar</string>
+    <string name="cers">Està segur que desitja tancar la seva sessió?</string>
+    <string name="recc">Està segur que desitja restablir la seva contrasenya?</string>
+    <string name="bap">Sota comanda</string>
+    <string name="vol">Tornar</string>
+    <string name="res">Reservar</string>
+    <string name="temp">Temperatura</string>
+    <string name="numeror">Numero de Racions:</string>
+    <string name="selen">Data de lliurament</string>
+    <string name="conti">Continuar</string>
+    <string name="gra">Moltes Gràcies!</string>
+    <string name="gu">S\'ha guardat la seva comanda correctament.</string>
+    <string name="rec">Recordi que pot seguir l\'estat en l\'apartat de comandes.</string>
+    <string name="cer">Tancar</string>
+    <string name="esp">Peticions especials</string>
+    <string name="idp">&amp;quot;L\'identificador de la seva comanda és: &amp;quot;</string>
+    <string name="relpe">Realitzant comanda...</string>
+    <string name="pedlo">Obtenint comandes...</string>
+    <string name="conf">Confirmar Canvis</string>
+    <string name="pre">Preu</string>
+    <string name="camcor">S\'han guardat els canvis correctament</string>
+    <string name="comer">Hi ha hagut un error! Intenti-ho de nou més tard.</string>
+    <string name="map">Veure en el mapa</string>
+    <string name="llam">Cridar</string>
+    <string name="default_notification_channel_id">N</string>
+    <string name="producto">Producte</string>
+    <string name="estado">Estat:</string>
+    <string name="numero_de_porciones">Nombre de porcions:</string>
+    <string name="dia_de_recogida">Dia de recollida:</string>
+    <string name="peticiones">Peticions:</string>
+    <string name="precio">Preu:</string>
+    <string name="informaci_n_personal">Informació personal:</string>
+    <string name="descripci_n">Descripció:</string>
+    <string name="al_rgenos">Al·lèrgens:</string>
+    <string name="num">Nombre de porcions:</string>
+    <string name="resumen_de_tu_pedido">Resum de la seva comanda</string>
+    <string name="nombre">Nom</string>
+    <string name="n_mero_de_porciones">Nombre de porcions:</string>
+    <string name="_1_porci_n">1 Porció</string>
+    <string name="d_a_de_recogida">Dia de Recollida:</string>
+    <string name="_10_de_enero_de_2020">10 de gener de 2020</string>
+    <string name="no">Nom:</string>
+    <string name="aaaa">AAAA</string>
+    <string name="martes_a_domingo_de_9_00_a_14_00">Dimarts a Diumenge de 9:00 a 14:00</string>
+    <string name="tel_fono_de_contacto">Telèfon de contacte:</string>
+    <string name="_666666666" >666666666</string>
+    <string name="peticiones_especiales">Peticions especials:</string>
+    <string name="nata_y_trufa">Nata i trufa</string>
+    <string name="precio_aproximado">Preu aproximat:</string>
+    <string name="_60">60 € *</string>
+    <string name="el_precio_podr_a_variar_dependiendo_de_las_peticiones_en_caso_de_que_variara_nos_pondr_amos_en_contacto_con_usted">El preu podria variar depenent de les peticions. En cas que variés, ens posaríem en contacte amb vostè.</string>
+    <string name="inicio">Inici</string>
+    <string name="perfil">Perfil</string>
+    <string name="pedidos">Comandes</string>
+    <string name="productos">Productes</string>
+    <string name="mantenimiento">Manteniment</string>
+    <string name="borrar_selecci_n">Esborrar Selecció</string>
+    <string name="guardar">Guardar</string>
+    <string name="_03094275q">03094275Q</string>
+    <string name="_31_12_2020">31/12/</string>
+    <string name="la_tienda_se_encuentra">La botiga es troba</string>
+    <string name="abierta">OBERTA</string>
+    <string name="horario">Horari</string>
+    <string name="producto_estacionario">Producte Estacionari</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="por"> Porcions</string>
+    <string name="porc"> Porció</string>
+    <string name="nopetes">Sense peticions especials.</string>
+    <string name="ab">OBERTA</string>
+    <string name="ce">TANCADA</string>
+    <string-array name="frigorificos">
+        <item>Todos</item>
+        <item>Nevera</item>
+        <item>Congelador horizontal</item>
+        <item>Congelador vertical 1</item>
+        <item>Congelador vertical 2</item>
+    </string-array>
+    <string-array name="frigorificosl">
+        <item>Nevera</item>
+        <item>Congelador horizontal</item>
+        <item>Congelador vertical 1</item>
+        <item>Congelador vertical 2</item>
+    </string-array>
+    <string-array name="zonas">
+        <item>Todas</item>
+        <item>Mármoles</item>
+        <item>Suelos</item>
+        <item>Utensilios</item>
+        <item>Paredes</item>
+        <item>Mostradores</item>
+        <item>Expositores</item>
+    </string-array>
+    <string-array name="zonasl">
+        <item>Mármoles</item>
+        <item>Suelos</item>
+        <item>Utensilios</item>
+        <item>Paredes</item>
+        <item>Mostradores</item>
+        <item>Expositores</item>
+    </string-array>
+    <string-array name="productos">
+        <item>Todos</item>
+        <item>Harina</item>
+        <item>Azúcar</item>
+        <item>Leche</item>
+        <item>Nata</item>
+        <item>Huevos</item>
+        <item>Cacao</item>
+        <item>Conos</item>
+    </string-array>
+    <string-array name="productosl">
+        <item>Harina</item>
+        <item>Azúcar</item>
+        <item>Leche</item>
+        <item>Nata</item>
+        <item>Huevos</item>
+        <item>Cacao</item>
+        <item>Conos</item>
+    </string-array>
+    <string-array name="tipos">
+        <item>Todos</item>
+        <item>Estacionario</item>
+        <item>Pan</item>
+        <item>Dulce</item>
+        <item>Bebida</item>
+        <item>Pastelería</item>
+        <item>Preparado</item>
+        <item>Repostería</item>
+        <item>Salado</item>
+    </string-array>
+    <string-array name="pago">
+        <item>Efectiu</item>
+        <item>Targeta</item>
+    </string-array>
+    <string-array name="estados">
+        <item>Todos</item>
+        <item>Entregado</item>
+        <item>Completado</item>
+        <item>En proceso</item>
+        <item>Cancelado</item>
+    </string-array>
+
+    <string-array name="estado">
+        <item>Entregado</item>
+        <item>Completado</item>
+        <item>En proceso</item>
+        <item>Cancelado</item>
+    </string-array>
+</resources>

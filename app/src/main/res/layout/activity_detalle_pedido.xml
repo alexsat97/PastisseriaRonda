@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.Compartidas.DetallePedido">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:elevation="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher_round"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre"
+                android:text="@string/producto"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="20sp"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/est"
+                        android:layout_width="wrap_content"
+                        android:text="@string/estado"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/num"
+                        android:layout_width="wrap_content"
+                        android:text="@string/numero_de_porciones"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/dia"
+                        android:layout_width="wrap_content"
+                        android:text="@string/dia_de_recogida"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/pet"
+                        android:layout_width="wrap_content"
+                        android:text="@string/peticiones"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/pre"
+                        android:layout_width="wrap_content"
+                        android:text="@string/precio"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/per"
+                        android:layout_width="wrap_content"
+                        android:visibility="gone"
+                        android:text="@string/informaci_n_personal"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/estado"/>
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:id="@+id/precio"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            app:hasClearButton="true"
+            android:layout_height="wrap_content"
+            app:labelText="@string/pre">
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/pretext"
+                android:visibility="gone"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/confirmar"
+        android:layout_width="300dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="confirmarCambios"
+        android:clickable="true"
+        android:elevation="@dimen/ms"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/radius">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/conf"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tm" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/volver"
+        android:layout_width="300dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="volver"
+        android:clickable="true"
+        android:elevation="@dimen/ms"
+        android:layout_marginBottom="@dimen/ms"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/radius">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/vol"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tm" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

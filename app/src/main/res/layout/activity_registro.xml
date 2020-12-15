@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/titulo"
+            app:tint="@color/colorPrimaryDark"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                app:iconSignifier="@drawable/ic_perm_identity_24px"
+                app:hasClearButton="true"
+                android:layout_height="wrap_content"
+                app:labelText="@string/nom">
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/nombretext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/telf"
+                android:layout_width="match_parent"
+                app:iconSignifier="@drawable/ic_call_24px"
+                android:layout_marginTop="@dimen/margins"
+                app:hasClearButton="true"
+                android:layout_height="wrap_content"
+                app:labelText="@string/telf">
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/telftext"
+                    android:inputType="phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                app:iconSignifier="@drawable/ic_mail_24px"
+                android:layout_marginTop="@dimen/margins"
+                app:hasClearButton="true"
+                android:layout_height="wrap_content"
+                app:labelText="@string/corelec">
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/mailtext"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/rpass"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/margins"
+                app:iconSignifier="@drawable/ic_vpn_key_24px"
+                app:hasClearButton="true"
+                android:layout_height="wrap_content"
+                app:labelText="@string/cont">
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/rpasstext"
+                    android:inputType="textPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/margins"
+                app:iconSignifier="@drawable/ic_vpn_key_24px"
+                android:layout_height="wrap_content"
+                app:labelText="@string/repcon">
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/passtext"
+                    android:inputType="textPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/registerButton"
+                android:layout_width="300dp"
+                android:layout_marginTop="@dimen/marginm"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:onClick="efectuarRegistro"
+                android:clickable="true"
+                android:elevation="@dimen/ms"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="@dimen/radius">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/reg"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tm" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
